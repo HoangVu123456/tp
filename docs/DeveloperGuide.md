@@ -292,7 +292,7 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
 **Use case: UC01 Add a contact**
 
-**Guarantee**
+**Guarantees**
 
 1. The new contact specified will be added to TaskForge if the command parameters are valid.
 2. The new contact will not be added to TaskForge if there is a missing or invalid parameter needed for the contact.
@@ -318,7 +318,7 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
 **Use case: UC02 Add a project to a contact**
 
-**Guarantee**
+**Guarantees**
 
 1. The new project will be successfully added to the specified contact when the command is valid.
 2. The new project will not be added to non-existing or invalid contact.
@@ -351,7 +351,7 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
 **Use case: UC03 Delete a task from a contact**
 
-**Guarantee**
+**Guarantees**
 
 1. The task is deleted from the contact if successful.
 2. The task is not deleted if there is missing information or invalid input.
